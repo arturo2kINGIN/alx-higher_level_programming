@@ -1,9 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/bash
 import random
+
 number = random.randint(-10, 10)
+
 if number > 0:
-    print(f"{number:d} is positive")
+  print(str(number) + " is positive")
 elif number == 0:
-    print(f"{number:d} is zero")
+  print(str(number) + " is zero")
 else:
-    print(f"{number:d} is negative")
+  print(str(number) + " is negative")
