@@ -6,7 +6,3 @@ def new_in_list(my_list, idx, element):
     else:
         copy[idx] = element
         return copy
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
